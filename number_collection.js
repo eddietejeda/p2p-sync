@@ -25,7 +25,7 @@ var NumberCollection = function(initial_list){
   
   this.getRandomNumber = function(){        
     number_of_searches = number_of_searches + 1; 
-    var random_index = number_list[Math.floor(Math.random()*number_list.length)];
+    var random_index = Math.floor(Math.random()*number_list.length);
     return number_list[random_index];
   }
   
