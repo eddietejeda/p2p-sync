@@ -1,0 +1,11 @@
+{
+  "name": "simple_webrtc_experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

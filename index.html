@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://simplewebrtc.com/latest.js"></script>
+    <script src="data.js"></script>
+    <script src="number_collection.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>  
+  </head>
+  <body>        
+    <h1 id="waiting-ui" style="display:block">Waiting for peers....</h1>
+
+    <div id="activity-ui" style="display:none">
+      <h1><span id="status_message"></span></h1>
+      <h1>Peers: <span id="peer_count">0</span></h1>
+      <h1>Initial collection size: <span id="initial_collection_count">0</span></h1>
+      <h1>Biggest number yet found: <span id="biggest_number_found">0</span></h1>
+      <h1>Processed by current worker: <span id="processed_by_current_worker">0</span></h1>
+    </div>
+         
+    <div id="messages"></div>
+    <div id="remotes"></div>
+  </body>
+</html>
